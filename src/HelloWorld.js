@@ -7,7 +7,8 @@ class HelloWorld extends Component {
 		super(props)
 
 		this.state = {
-			name: 'Wesley Peres'
+			name: 'Wesley Peres',
+			txt: this.props.txt
 		}
 	}
 

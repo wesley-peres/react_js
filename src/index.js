@@ -5,6 +5,6 @@ import HelloWorld from './HelloWorld';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-	<HelloWorld />, 
+	<HelloWorld txt="Hello World from React.js" />, 
 	document.getElementById('root')
 );
